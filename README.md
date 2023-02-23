@@ -1,9 +1,11 @@
+<img src="https://drive.google.com/file/d/1yAXWvgLL95Wgr-WHxC_SbKqV57NuPC7a/view?usp=share_link"/>
+
 # Alura ONE - Oracle Next Education 
 
 <h1>Challenge ONE Back End: Java - Sprint 01: Conversor de Moedas</h1> 
 
 <p align="center">
-  <img src="https://img.shields.io/static/v1?label=JAVA&message=1.8&color=yellow&style=for-the-badge""/>
+  <img src="https://img.shields.io/static/v1?label=JAVA&message=1.8&color=yellow&style=for-the-badge"/>
   <img src="http://img.shields.io/static/v1?label=ALURA&message=T4-BackEnd&color=darkblue&style=for-the-badge"/>
   <img src="http://img.shields.io/static/v1?label=Oracle&message=ONE&color=orange&style=for-the-badge"/>
   <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=RED&style=for-the-badge"/>
