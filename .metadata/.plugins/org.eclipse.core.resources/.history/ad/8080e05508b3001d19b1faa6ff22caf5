@@ -1,0 +1,92 @@
+import javax.swing.JOptionPane;
+
+public class Conversor {
+
+	public static void main(String[] args) {
+
+		double valorInserido = Integer.parseInt(JOptionPane.showInputDialog("Digite o valor:"));
+
+		String[] opcoes = {
+				"Dollar para Real",
+				"Euro para Real",
+				"Libras Esterlinas para Real",
+				"Peso argentino para Real",
+				"Peso chileno para Real",
+				"Real para Dollar",
+				"Real para Euro",
+				"Real para Libras Esterlinas",
+				"Real para Peso argentino",
+				"Real para Peso chileno"};
+		String escolhido = (String) JOptionPane.showInputDialog(null,
+				"Escolha a moeda para a qual você deseja converter",
+				"Moedas", -1, null, opcoes, args);
+
+
+		switch (escolhido) {
+		case "Dollar para Real":
+			
+			System.out.println("Opção 1: " + valorInserido);
+
+			break;
+
+		case "Euro para Real":
+			
+			System.out.println("Opção 2: " + valorInserido);
+
+			break;
+			
+		case "Libras Esterlinas para Real":
+			
+			System.out.println("Opção 3: " + valorInserido);
+
+			break;
+			
+		case "Peso argentino para Real":
+			
+			System.out.println("Opção 4: " + valorInserido);
+
+			break;
+			
+		case "Peso chileno para Real":
+			
+			System.out.println("Opção 5: " + valorInserido);
+
+			break;
+			
+		case "Real para Dollar":
+			
+			System.out.println("Opção 6: " + valorInserido);
+
+			break;
+			
+		case "Real para Euro":
+			
+			System.out.println("Opção 7: " + valorInserido);
+
+			break;
+			
+		case "Real para Libras Esterlinas":
+			
+			System.out.println("Opção 8: " + valorInserido);
+
+			break;
+			
+		case "Real para Peso argentino":
+			
+			System.out.println("Opção 9: " + valorInserido);
+
+			break;
+			
+		case "Real para Peso chileno":
+			
+			System.out.println("Opção 10: " + valorInserido);
+
+			break;
+
+		default:
+			break;
+		}
+
+	}
+
+}

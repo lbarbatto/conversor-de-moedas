@@ -1,0 +1,10 @@
+
+public class EuroReal {
+	
+		public double getEuroReal(double valorInserido, double taxaDeConversão) {
+		
+		return (valorInserido * taxaDeConversão);
+		
+	}
+
+}

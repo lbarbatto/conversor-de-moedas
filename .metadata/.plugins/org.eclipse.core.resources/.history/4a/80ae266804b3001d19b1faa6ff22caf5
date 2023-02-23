@@ -1,0 +1,34 @@
+import javax.swing.JOptionPane;
+
+public class Conversor {
+
+	public static void main(String[] args) {
+
+		double valorInserido = Integer.parseInt(JOptionPane.showInputDialog("Digite o valor:"));
+
+		String[] opcoes = { "Dollar para Real", "Euro para Real" };
+		String escolhido = (String) JOptionPane.showInputDialog(null,
+				"Escolha a moeda para a qual você deseja converter",
+				"Moedas", -1, null, opcoes, args);
+
+
+		switch (escolhido) {
+		case "Dollar para Real":
+			
+			System.out.println("Opção 1");
+
+			break;
+
+		case "Euro para Real":
+			
+			System.out.println("Opção 2");
+
+			break;
+
+		default:
+			break;
+		}
+
+	}
+
+}

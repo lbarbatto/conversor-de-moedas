@@ -1,0 +1,12 @@
+
+public class LibraReal {
+	
+	private double taxaDeConversão = 5;
+	
+	public double getLibraReal(double valorInserido) {
+		
+		return (valorInserido * taxaDeConversão);
+		
+	}
+
+}

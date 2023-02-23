@@ -1,0 +1,18 @@
+import javax.swing.JOptionPane;
+
+public class Conversor {
+
+	public static void main(String[] args) {
+
+
+		double valorInserido;
+		
+		valorInserido = Integer.parseInt(JOptionPane.showInputDialog("Digite o valor:"));
+		System.out.println(valorInserido);
+		
+		JOptionPane.showInputDialog(null, "teste", "titulo", 2, null, args, args);
+		
+
+	}
+
+}

@@ -1,0 +1,12 @@
+
+public class RealDollar {
+	
+	private double taxaDeConversão = 5;
+	
+	public double getRealDollar(double valorInserido) {
+		
+		return (valorInserido * taxaDeConversão);
+		
+	}
+
+}

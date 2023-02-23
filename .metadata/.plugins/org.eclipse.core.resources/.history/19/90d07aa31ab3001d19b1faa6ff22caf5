@@ -1,0 +1,12 @@
+
+public class RealPesoArg {
+	
+	private double taxaDeConversão = 5;
+	
+	public double getRealPesoArg(double valorInserido) {
+		
+		return (valorInserido * taxaDeConversão);
+		
+	}
+
+}

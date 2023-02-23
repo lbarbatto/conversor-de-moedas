@@ -1,0 +1,12 @@
+
+public class PesoChiReal {
+	
+	private double taxaDeConversão = 5;
+	
+	public double getPesoChiReal(double valorInserido) {
+		
+		return (valorInserido * taxaDeConversão);
+		
+	}
+
+}
