@@ -20,7 +20,7 @@ public class Conversor {
 
 		double valorConvertido = 0;
 
-		NumberFormat valorFormatado = new DecimalFormat("#0.00");
+		NumberFormat valorFormatado = new DecimalFormat("#,000.00");
 		String mensagemFinal = "";
 
 		String[] opcoes = { "Dollar para Real", "Euro para Real", "Libras Esterlinas para Real",
