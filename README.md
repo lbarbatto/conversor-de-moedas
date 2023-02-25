@@ -75,7 +75,7 @@ Se for o caso, liste tarefas/funcionalidades que ainda precisam ser implementada
 
 :memo: Implementação para Web com consumo de uma API financeira
 
-## Desenvolvedores/Contribuintes :octocat:
+## Desenvolvedores/Contribuintes
 
 [Leopoldo Barbato](https://www.linkedin.com/in/leopoldo-barbato)
 
