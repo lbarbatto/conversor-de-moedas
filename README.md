@@ -1,4 +1,4 @@
-<img src="https://drive.google.com/file/d/1yAXWvgLL95Wgr-WHxC_SbKqV57NuPC7a/view?usp=share_link"/>
+<img align="right" src="https://github.com/lbarbatto/conversor-de-moedas/blob/main/source/img/lb_backend_alura_002.png">
 
 # Alura ONE - Oracle Next Education 
 
