@@ -129,11 +129,9 @@ public class Conversor {
 		if (resposta == JOptionPane.YES_OPTION) {
 
 			main(args);
-		} else {
-			JOptionPane.showMessageDialog(null, "Volte Sempre!");
 		}
 		
-		
+		JOptionPane.showMessageDialog(null, "Volte Sempre!");
 
 	}
 
